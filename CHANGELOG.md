@@ -4,6 +4,8 @@ All notable changes to `laravel-mcp-discovery` will be documented in this file.
 
 ## Unreleased
 
+## v0.1.0 - 2026-09-27
+
 - Server discovery from `Mcp::web()` routes, with metadata from laravel/mcp attributes, `#[Discoverable]` and config
 - Server Card emitter (`/.well-known/mcp-server-card[/{key}]`, optional index)
 - `llms.txt` and `robots.txt` emitters (dynamic route or `mcp-discovery:write`)
